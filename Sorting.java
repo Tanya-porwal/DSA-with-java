@@ -50,7 +50,7 @@ public class Sorting {
     public static void insertionSort(int[] arr){
         System.out.println();
         System.out.println("array for insertion sort:");
-        printArray(arr);
+        printArray(arr);   
         for(int i=1;i<arr.length;i++){
             int key=arr[i];
             int j=i-1;
